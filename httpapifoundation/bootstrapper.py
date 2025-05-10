@@ -1,8 +1,9 @@
 import logging
 
+from pythonhelpers.injector import Injector
+
 from httpapifoundation.http.abstract import AbstractHttp
 from httpapifoundation.http.meta_route import MetaRoute
-from httpapifoundation.injector import Injector
 
 
 _logger = logging.getLogger(__name__)
